@@ -51,5 +51,22 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+# Rust build artifacts
+target/
+
+# Project build output
+build/
+
+# Rust tooling
+.rustc_info.json
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
 # debug information files
 *.dwo
